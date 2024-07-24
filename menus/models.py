@@ -7,7 +7,7 @@ MAX_LENGTH_URL = 200
 
 
 class MenuItem(models.Model):
-    """Модель элемента меню."""
+    """Модель элементов "меню"."""
 
     name = models.CharField(
         verbose_name='Наименование',
