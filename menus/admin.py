@@ -1,3 +1,12 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import MenuItem
+
+admin.site.empty_value_display = '-Не задано-'
+
+
+@admin.register(MenuItem)
+class MenuItemAdmin(admin.ModelAdmin):
+    list_display = ('name', 'parent', 'menu_name')
+    list_filter = ('menu_name',)
+    search_fields = ('name', 'url', 'named_url')
