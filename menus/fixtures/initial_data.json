@@ -7,7 +7,7 @@
             "url": "/home/",
             "named_url": "",
             "parent": null,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -18,7 +18,7 @@
             "url": "",
             "named_url": "about",
             "parent": null,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -29,7 +29,7 @@
             "url": "",
             "named_url": "services",
             "parent": null,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -40,7 +40,7 @@
             "url": "/contact/",
             "named_url": "",
             "parent": null,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -51,7 +51,7 @@
             "url": "",
             "named_url": "web-development",
             "parent": 3,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -62,7 +62,7 @@
             "url": "",
             "named_url": "seo",
             "parent": 3,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -73,7 +73,7 @@
             "url": "/services/marketing/",
             "named_url": "",
             "parent": 3,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -84,7 +84,7 @@
             "url": "",
             "named_url": "seo-level-2",
             "parent": 6,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -95,7 +95,7 @@
             "url": "",
             "named_url": "seo-level-3",
             "parent": 8,
-            "menu_name": "Главное меню"
+            "menu_name": "main_menu"
         }
     },
     {
@@ -106,7 +106,7 @@
             "url": "",
             "named_url": "overview",
             "parent": null,
-            "menu_name": "Вспомогательное меню"
+            "menu_name": "secondary_menu"
         }
     },
     {
@@ -117,7 +117,7 @@
             "url": "",
             "named_url": "team",
             "parent": null,
-            "menu_name": "Вспомогательное меню"
+            "menu_name": "secondary_menu"
         }
     }
 ]
