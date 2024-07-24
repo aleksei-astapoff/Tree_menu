@@ -1,5 +1,5 @@
 <ul>
     {% for node in menu_tree %}
-        {% include 'menus/menu_node.html' with node=node current_path=current_path %}
+        {% include 'menus/menu_node.html' with node=node current_path=current_path active_item=active_item active_parents=active_parents %}
     {% endfor %}
 </ul>

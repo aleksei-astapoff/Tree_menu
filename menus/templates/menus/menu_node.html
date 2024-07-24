@@ -5,7 +5,7 @@
     {% if node.children %}
         <ul>
             {% for child in node.children %}
-                {% include 'menus/menu_node.html' with node=child current_path=current_path %}
+                {% include 'menus/menu_node.html' with node=child current_path=current_path active_item=active_item active_parents=active_parents %}
             {% endfor %}
         </ul>
     {% endif %}
