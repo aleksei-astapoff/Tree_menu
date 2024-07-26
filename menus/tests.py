@@ -115,3 +115,18 @@ class DrawMenuTagTest(TestCase):
             )
         self.assertIn('href="/overview/"', rendered)
         self.assertIn('href="/team/"', rendered)
+
+    def test_single_query(self) -> None:
+        """
+        Тестирование запросов к базе данных.
+        Проверяем количество запрошенных запросов, не более одного.
+        """
+        request = self.factory.get('/services/web-development/')
+        context = {'request': request}
+        template_string = '''
+            {% load menu_tags %}
+            {% draw_menu "main_menu" %}
+        '''
+
+        with self.assertNumQueries(1):
+            self.render_template(template_string, context)
