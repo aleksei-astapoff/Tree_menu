@@ -1,0 +1,18 @@
+{% load menu_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Example</title>
+    <style>
+        .active {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Главное меню</h1>
+    {% draw_menu 'main_menu' %}
+    <h1>Вспомогательное меню</h1>
+    {% draw_menu 'secondary_menu' %}
+</body>
+</html>

@@ -1,0 +1,123 @@
+[
+    {
+        "model": "menus.menuitem",
+        "pk": 1,
+        "fields": {
+            "name": "Home",
+            "url": "/home/",
+            "named_url": "",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 2,
+        "fields": {
+            "name": "About",
+            "url": "",
+            "named_url": "about",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 3,
+        "fields": {
+            "name": "Services",
+            "url": "",
+            "named_url": "services",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 4,
+        "fields": {
+            "name": "Contact",
+            "url": "/contact/",
+            "named_url": "",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 5,
+        "fields": {
+            "name": "Web Development",
+            "url": "",
+            "named_url": "web-development",
+            "parent": 3,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 6,
+        "fields": {
+            "name": "SEO",
+            "url": "",
+            "named_url": "seo",
+            "parent": 3,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 7,
+        "fields": {
+            "name": "Marketing",
+            "url": "/services/marketing/",
+            "named_url": "",
+            "parent": 3,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 8,
+        "fields": {
+            "name": "SEO Level 2",
+            "url": "",
+            "named_url": "seo-level-2",
+            "parent": 6,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 9,
+        "fields": {
+            "name": "SEO Level 3",
+            "url": "",
+            "named_url": "seo-level-3",
+            "parent": 8,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 10,
+        "fields": {
+            "name": "Overview",
+            "url": "",
+            "named_url": "overview",
+            "parent": null,
+            "menu_name": "secondary_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 11,
+        "fields": {
+            "name": "Team",
+            "url": "",
+            "named_url": "team",
+            "parent": null,
+            "menu_name": "secondary_menu"
+        }
+    }
+]
