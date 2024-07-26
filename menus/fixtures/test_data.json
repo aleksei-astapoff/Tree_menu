@@ -1,0 +1,110 @@
+[
+    {
+        "model": "menus.menuitem",
+        "pk": 1,
+        "fields": {
+            "name": "Home",
+            "url": "/home/",
+            "named_url": "",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 2,
+        "fields": {
+            "name": "About",
+            "url": "/about/",
+            "named_url": "",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 3,
+        "fields": {
+            "name": "Services",
+            "url": "/services/",
+            "named_url": "",
+            "parent": null,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 4,
+        "fields": {
+            "name": "Web Development",
+            "url": "/services/web-development/",
+            "named_url": "",
+            "parent": 3,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 5,
+        "fields": {
+            "name": "SEO",
+            "url": "/services/seo/",
+            "named_url": "",
+            "parent": 3,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 6,
+        "fields": {
+            "name": "Marketing",
+            "url": "/services/marketing/",
+            "named_url": "",
+            "parent": 3,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 7,
+        "fields": {
+            "name": "SEO Level 2",
+            "url": "/services/seo/level-2/",
+            "named_url": "",
+            "parent": 5,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 8,
+        "fields": {
+            "name": "SEO Level 3",
+            "url": "/services/seo/level-3/",
+            "named_url": "",
+            "parent": 7,
+            "menu_name": "main_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 8,
+        "fields": {
+            "name": "Overview",
+            "url": "/overview/",
+            "parent": null,
+            "menu_name": "secondary_menu"
+        }
+    },
+    {
+        "model": "menus.menuitem",
+        "pk": 9,
+        "fields": {
+            "name": "Team",
+            "url": "/team/",
+            "parent": null,
+            "menu_name": "secondary_menu"
+        }
+    }
+]
